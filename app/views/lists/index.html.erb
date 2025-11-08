@@ -1,7 +1,23 @@
-<h1>Toutes mes listes</h1>
-<ul>
-  <% @lists.each do |list| %>
-  <li><%= link_to list.name, list_path(list) %></li>
-  <% end %>
-</ul>
-<%= link_to "Add a list", new_list_path(@list), class: "btn btn-success" %>
+<!--<div class="banner">
+<%= image_tag "cinema.jpg", height: 150, width: 1500 %>
+ </div>-->
+<div class="banner"  style="background-image: url(https://cdn.pixabay.com/photo/2019/04/24/21/55/cinema-4153289_1280.jpg);">
+  <div class="container">
+    <p>Quel film ce soir ?</p>
+
+
+  </div>
+</div>
+
+
+<div class="container">
+    <h1 class="text-center">Toutes mes listes</h1>
+
+
+      <ul>
+        <% @lists.each do |list| %>
+        <li><%= link_to list.name, list_path(list) %></li>
+         <% end %>
+      </ul>
+        <%= link_to "Add a list", new_list_path(@list), class: "btn btn-success" %>
+</div>
