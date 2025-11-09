@@ -1,7 +1,12 @@
 .banner {
+  height: 200px;
+  background-image: url(https://cdn.pixabay.com/photo/2019/04/24/21/55/cinema-4153289_1280.jpg);
   background-size: cover;
   background-position: center;
-  padding: 150px 0;
+
+
+
+
 
   h1 {
     margin: 0;
@@ -12,8 +17,10 @@
   }
 
   p {
-    padding-top: 4rem;
-    font-size: 60px;
+    
+    width: 860px;
+    padding: 4rem;
+    font-size: 80%;
     color: #5e1034;
     opacity: .7;
     text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
