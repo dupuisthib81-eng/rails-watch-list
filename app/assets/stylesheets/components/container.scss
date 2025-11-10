@@ -1,9 +1,18 @@
 .container{
   width: 100% !important;
   margin: auto;
-  background-image: url(https://cdn.pixabay.com/photo/2018/09/04/10/15/theater-3653366_1280.jpg);
+  //background-image: url(https://cdn.pixabay.com/photo/2018/09/04/10/15/theater-3653366_1280.jpg);/
   background-size: cover;
   background-position: center;
+h1 {
+    padding-top:16px;
+    margin: 0;
+    color: rgb(191, 73, 73);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    font-size: 96px;
+    font-weight: bold;
+  }
+
 }
 
 @media (max-width: 900px) {
